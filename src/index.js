@@ -33,6 +33,17 @@ ajax.onreadystatechange = () => {
   //   console.info("ready state change " + ajax.readyState);
 };
 ajax.send();
+// function loadDoc() {
+//   var xhttp = new XMLHttpRequest();
+//   xhttp.onreadystatechange = function() {
+//       if (this.readyState == 4 && this.status == 200) {
+//           document.getElementById("demo").innerHTML =
+//           this.responseText;
+//      }
+//   };
+//   xhttp.open("GET", "ajax_info.txt", true);
+//   xhttp.send();
+// }
 
 //MENGIRIM DATA DENGAN AJAX
 console.info("\nMENGIRIM DATA DENGAN AJAX");
